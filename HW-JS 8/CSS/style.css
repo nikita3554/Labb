@@ -1,0 +1,22 @@
+#priceInput {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#priceInput.green-border {
+    border-color: green;
+}
+#priceInput.red-border {
+    border-color: red;
+}
+.result {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.result span {
+    margin-right: 10px;
+}
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
