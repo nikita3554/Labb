@@ -1,0 +1,250 @@
+body{
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("Journey.png");
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;    
+}
+
+.header h1,p{
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header_riht a{
+    color: #337c55;
+    transition: color 0.5s;
+}
+
+.header_riht a:hover{
+    text-decoration: underline;
+}
+
+.header {
+    display: block ruby;
+}
+
+.header_left h1{
+    padding-left: 80px;
+    padding-top: 10px;
+    transition: color 0.5s;
+}
+
+.header_left h1:hover{
+    color: #337c55;
+}
+.header_riht{
+    display: block ruby;
+    float: right;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.header_centr {
+    float: right;
+    transition: color 0.3s;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+.header_centr a:hover{
+    filter: brightness(0) saturate(100%) invert(52%) sepia(55%) saturate(4442%) hue-rotate(349deg) brightness(99%) contrast(91%);
+}
+
+.header_centr img{
+    padding-left: 20px;
+}
+
+.header a,p,h1,img {
+    margin-top: 0px;
+}
+
+aside{
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+
+
+.aside_box {
+    position: absolute;
+    background-color: white;
+    width: 445px;
+    height: 585px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.div_Gryn_box{
+    display: block ruby;
+    margin-top: 25px;
+}
+
+.div_Gryn_box a {
+    float: right;
+    margin-right: 55px;
+    color: #337c55;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+.div_Gryn_box a:hover{
+    text-decoration: underline;
+}
+
+.div_Gryn_box p {
+    margin-left: 40px;
+    color: black;
+    font-size: 24px;
+}
+
+.lin_or{
+    display: block ruby;
+    margin-left: 65px;
+    padding-top: 10px;
+    height: 20px;
+    padding-bottom: 10px;
+    width: 310px;
+    margin-right: 65px;
+}
+
+.lin_or p{
+    color: black;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.button_socset {
+    display: block ruby;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.Facebook {
+    display: inline;
+    background-color: #305db8; 
+    border-radius: 4px;
+    padding-left: 20px;
+    border: none;
+    padding-right: 0px;
+}
+.Facebook:active {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+.Facebook p {
+    padding-right: 20px;
+    padding-left:  10px;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.Facebook img{
+    
+}
+
+.Google{
+    background-color: #df4a32;
+    display: inline;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+}
+
+.Google:active {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.Google p{
+    margin-right: 20px;
+    font-size: 16px;
+       
+    margin-bottom: 13px;
+}
+
+.img_G {
+    padding-left: 20px;
+}
+
+.img_lineG{
+    margin-left: 10px;
+}
+
+.InputField {
+    display: inline-grid;
+    width: 70%;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 320px;
+    
+    margin-top: 0px;
+    
+}
+
+input {
+    padding: 15px;
+    margin: 5px;
+    border-right-style: solid;
+    border-top-width: 0.1px;
+    border-top-style: solid;
+    border-left-width: 0.1px;
+    border-left-style: solid;
+    border-bottom-width: 0.1px;
+    border-bottom-style: solid;
+    border-right-width: 0.1px;
+    
+}
+
+.InputField input:focus {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    border: none;
+    outline: none;
+    border-right-width: 0px;
+    
+  
+}
+
+.checkbox {
+    margin-bottom: 15px;
+    margin-left: 60px;
+    
+}
+
+.checkbox a{
+    color: #337c55;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+.checkbox a:hover{
+    border-bottom: 2px dashed;
+}
+
+.Create_Account {
+    background-color: #3cb878;
+    color:white;
+    padding: 15px;
+    border-radius: 4px;
+    width: 70%;
+    border: none;
+    margin-left: 70px;
+    margin-right: 65px;
+}
+.Create_Account:active {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    border: none;
+    
+}
+

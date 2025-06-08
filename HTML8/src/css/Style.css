@@ -1,0 +1,254 @@
+p,a{
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+body {
+  width: 100%;
+  height: 3575px;
+  background-color:  white;
+}
+
+
+.he_up {
+  display: block ruby;
+  background-color: white;
+  width: 100%;
+  margin-top: 0px;
+  top: 35px;
+  position: relative;
+  
+}
+.he_up_text {
+  display: inline;
+  margin-left: 10%;
+  position: relative;
+  
+}
+
+.Behance,.Envato,.Envato2,.Deviantart,.Flickr,.Markco,.Yahoo{
+  filter: brightness(0) saturate(100%) invert(45%) sepia(5%) saturate(6%) hue-rotate(325deg) brightness(97%) contrast(91%);
+}
+
+.comp {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 25px
+}
+
+.header_blue_text,.blue_text{
+  color: #14afca;
+  font-size: 35px;
+  
+}
+
+.blue_text{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.WHAT {
+  padding-top: 100px;
+}
+
+.div_nav {
+  margin-left: 28%;
+  font-size: 15px;
+  
+  
+}
+.div_nav li {
+  display: inline;
+  margin-left: 55px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+
+}
+nav a:hover{
+  color: #14afca;
+  font-weight: 480;
+  
+}
+
+.COMPA{
+  padding-top: 200px;
+  position: relative;
+}
+
+.MEET {
+  padding-top: 105px;
+}
+
+.TESTI{
+  padding-top: 190px;
+  position: relative;
+}
+
+.WHY{
+  padding-top: 100px;
+}
+
+.first_section {
+  background: url("bg1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 720px;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.first_section::before {
+	background-color: #000;
+	opacity: 0.7;
+	content: " ";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.fb_text {
+  padding: 170px;
+  padding-top: 270px
+}
+
+.big_text{
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  position: relative;
+}
+
+.ziro_section{
+  background-color: white;
+  height: 485px;
+}
+
+.second_section {
+  height: 720px;
+  background: url("bg2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  position: relative;
+  clip-path: polygon(50% 10%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.second_section::before {
+	background-color: #000;
+	opacity: 0.78;
+	content: " ";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.third_section{
+  background-color: white;
+  height: 760px;
+}
+
+.fourth_section{
+  height: 580px;
+  background: url("bg3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  clip-path: polygon(50% 10%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.fourth_section::before {
+	background-color: #000;
+	opacity: 0.75;
+	content: " ";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.big_text,.header_blue_text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.innova{
+  font-size: 30px;
+}
+
+b,.average_text.left,.fos_ave,.average_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.blue_text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fifth_section{ 
+  background-color: white;
+  height: 410px;
+}
+
+.img_up,.img_down {
+  position: relative;
+  display: inline;
+  text-align: center;
+  height: 100.25px;
+  top:-70px
+}
+.img_up img,.img_down img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.img_block{
+  display: block ruby;
+  text-align: center;
+}
+
+.img_block div{
+  text-align: center;
+  margin: 50px;
+}
+
+.average_text,.litle_text,.innova {
+  text-align: center;
+  padding: 10px;
+}
+
+.left {
+  margin-left: 30%;
+  color: white;
+  
+}
+.left{
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.fos_lit,.fos_ave,.sec_lor {
+  color: white;
+}
+
+.fos_lit{
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  
+}
+
+footer{
+  padding-top: 170px;
+  background-color: white;
+}
+.sec_lor p{
+  top:-50px;
+}

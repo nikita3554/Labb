@@ -1,0 +1,87 @@
+body{
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("Journey.png");
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;    
+}
+
+.header h1,p{
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header_riht a{
+    color: #337c55;
+    transition: color 0.5s;
+}
+
+.header_riht a:hover{
+    text-decoration: underline;
+}
+
+.header {
+    display: block ruby;
+}
+
+.header_left h1{
+    padding-left: 80px;
+    padding-top: 10px;
+    transition: color 0.5s;
+}
+
+.header_left h1:hover{
+    color: #337c55;
+}
+.header_riht{
+    display: block ruby;
+    float: right;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.header_centr {
+    float: right;
+    transition: color 0.3s;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+.header_centr a:hover{
+    filter: brightness(0) saturate(100%) invert(52%) sepia(55%) saturate(4442%) hue-rotate(349deg) brightness(99%) contrast(91%);
+}
+
+.header_centr img{
+    padding-left: 20px;
+}
+
+.header a,p,h1,img {
+    margin-top: 0px;
+}
+
+
+aside{
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+.aside_box {
+    position: absolute;
+    background-color: aqua;
+    width: 445px;
+    height: 585px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}

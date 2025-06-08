@@ -1,0 +1,104 @@
+aside p,header p {
+    font-family: "Amiko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+body {
+    width: 1366px; 
+    height: 768px;
+    padding-top: 50px;
+    background-image: url('background.png');
+    background-size: 100%;
+    background-position: center;
+    position: revert;
+    margin: auto;
+}
+
+.content_header {
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    object-position: center;
+}
+
+.logo {
+    height: 48px;
+    width: 50px;
+    float: left;
+}
+
+.logo img { 
+    border: none;
+}
+
+h1 {
+    font-family: "Amiko", sans-serif;
+    font-weight: 600;
+}
+
+p,a,h1 {
+    color: white;
+    margin: 0px;
+}
+
+.text_left {
+    margin-left: 15px;
+    display: block;
+    float: left;
+    
+}
+
+.text_right a {
+    padding-top: 10px;
+    float: right;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+
+.text_right {
+    float: right;
+}
+
+.text_left :hover {
+    transition: color 0.5s;
+    color: #f26522;
+}
+
+
+.text_right :hover {
+    transition: color 0.5s;
+    color: #f26522;
+}
+
+.button_img{
+    text-align: center;
+}
+
+button :hover {
+    transition: color 0.5s;
+    color: #f26522;
+}
+
+img {
+    border: 1.8px solid white;
+    
+}
+
+button{
+    background-color: transparent;
+    border: 0px solid #000;
+    margin-right: 65px;
+    margin-bottom: 68px;
+    padding-bottom: 30px;
+    
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
